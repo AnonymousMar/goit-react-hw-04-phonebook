@@ -12,23 +12,34 @@
 
 .formInput {
     width: 340px;
-    height: 36px;
-    vertical-align: middle;
-    font-size: 18px;
-    margin-top: 4px;
-    border-radius: 4px;
-}
+        height: 36px;
+        vertical-align: middle;
+        font-size: 18px;
+        margin-top: 4px;
+        border-radius: 4px;
+    }
 
 .formBtn {
-    margin: 8px auto;
-    background-color: rgba(45, 53, 68, 0.8);
-    border: none;
-    border-radius: 6px;
-    color: #fff;
-    font-size: 20px;
-    height: 42px;
-    width: 180px;
-    cursor: pointer;
+    position: relative;
+        display: inline-block;
+    
+        margin-top: 40px;
+        padding: 8px 15px;
+        color: #03e9f4;
+        background-color: rgba(199, 192, 192, 0.72);
+        font-size: 16px;
+        font-family: sans-serif;
+        text-decoration: none;
+        text-transform: uppercase;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        letter-spacing: 3px;
+    
+        transition: color 0.5s cubic-bezier(0.075, 0.82, 0.165, 1),
+            background-color 0.5s cubic-bezier(0.075, 0.82, 0.165, 1),
+            box-shadow 0.5s cubic-bezier(0.075, 0.82, 0.165, 1),
+            border-radius 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
 .formBtn:hover,
